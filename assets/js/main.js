@@ -5,8 +5,54 @@
 * License: https://bootstrapmade.com/license/
 */
 
+ function addGradient(){
+   // set classes
+   var classes     = new Array (
+                           // 'dull',
+                           'margo',
+                           'margo2',
+                           'margo3',
+                           // 'bluelight',
+                           // 'freshair',
+                           // 'calmblue',
+                           // 'greenlight',
+                           // 'sunrise',
+
+
+                           // 'honeydew',
+                          // 'yell',
+                          // 'purple',
+                          // 'vlight',
+                          // 'notsure',
+                          // 'delicate',
+
+                          // 'margo4',
+
+                          // 'gblue',
+                          // 'teal',
+                          // 'blue',
+                          // 'green',
+                          // 'pinkblu',
+                          // 'orange',
+                          // 'bluyel',
+                               );
+
+   // calculate length once, as this will never change
+   var length      = classes.length;
+
+   // select all a-tags
+   var links       = $('body');
+   var classtoadd =  classes[ Math.floor ( Math.random() * length ) ]
+   // loop through all a-tags and apply color randomly
+   $.each( links, function(key, value) {
+       // get random value/class-name from array and add it using the addClass function
+       $(value).addClass(classtoadd);
+   });
+ }
+
 (function() {
   "use strict";
+  // $(document).ready(addGradient);
 
   /**
    * Easy selector helper function
