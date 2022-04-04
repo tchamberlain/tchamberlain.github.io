@@ -9,12 +9,11 @@
    // set classes
    var classes     = new Array (
                            // 'dull',
-                           'margo',
-                           'margo2',
-                           'margo3',
+                           // 'margo',
+                           // 'margo2',
+                           // 'margo3',
                            // 'bluelight',
                            // 'freshair',
-                           // 'calmblue',
                            // 'greenlight',
                            // 'sunrise',
 
