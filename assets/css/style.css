@@ -42,8 +42,8 @@ background-image: linear-gradient(99deg, #d9e4f5 0%, #f5e3e6 74%);
 }
 .dull {
   background: #C9D6FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */ */
+background: radial-gradient(#E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .teal {
@@ -63,18 +63,54 @@ background-image: linear-gradient(100deg, #007ea7 0%, #80ced7 70%);
 }
 
 .margo3 {
-  background: #bced91; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #bced91 4%, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #bced91 4%, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #cdedca; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e5ffe3 4%, white); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e5ffe3 4%, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .margo4 {
-  background: #7F7FD5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+ background-image: radial-gradient(#2e8b84, #65a6b2, #a1c1d3, #d6deeb, #ffffff);
 }
 
+.margo5 {
+   background-image: linear-gradient(to left top, #c4e394, #48bda0, #56ccda, #91dae3, #ffffff);
+}
+
+.margo6 {
+
+ background-image: linear-gradient(to right top, #bbc0eb, #acb3ed, #9ea5ee, #8f98ef, #818af0);}
+
+
+ .margo7 {
+background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+ }
+ .margo10{
+   background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+ }
+ .margo11 {
+   background-color: #CDDCDC;
+ background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
+ background-blend-mode: screen, overlay;
+ }
+ .margo12 {
+   background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+ }
+ .margo13{
+   background-image: linear-gradient( 10deg,  rgba(141,190,134,1) 13.6%, rgba(230,251,198,1) 65.3%, rgba(255,255,255,1) 108.8% );
+ }
+
+
+.margo14 {
+  background: hsla(72, 100%, 90%, 1);
+  background: radial-gradient(circle, hsla(72, 100%, 90%, 1) 0%, hsla(47, 84%, 83%, 1) 100%);
+  background: -moz-radial-gradient(circle, hsla(72, 100%, 90%, 1) 0%, hsla(47, 84%, 83%, 1) 100%);
+  background: -webkit-radial-gradient(circle, hsla(72, 100%, 90%, 1) 0%, hsla(47, 84%, 83%, 1) 100%);
+}
+ .margo8{
+   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+ }
+ .margo9{
+   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+ }
 .bluyel {
   background-color: #fdf86d;
   background-image: linear-gradient(100deg, #fdf86d 0%, #bddcf1 74%);
@@ -151,7 +187,7 @@ body {
     background-color:  #f5f5dc;
     /* background-color: #fcf9f0; */
     background-color: #e7edda;
-    background-color: #e7edda;
+    background-color: #f6f2e4;
 
 }
 
@@ -192,7 +228,7 @@ video {
 
 }
 .bit a {
- color: #48a8d4;
+ /* color: gray; */
 
 }
 

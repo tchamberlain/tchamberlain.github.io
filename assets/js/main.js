@@ -8,25 +8,38 @@
  function addGradient(){
    // set classes
    var classes     = new Array (
-                           // 'dull',
-                           // 'margo',
-                           // 'margo2',
-                           // 'margo3',
+                           'dull',
+                           'margo',
+                           'margo2',
+                           'margo3',
+                           'margo4',
+                           'margo5',
+                           'margo6',
+                           'margo7',
+                           'margo8',
+                           'margo9',
+                           'margo10',
+                           'margo11',
+                           'margo12',
+                           'margo13',
+                           'margo14',
+
                            // 'bluelight',
                            // 'freshair',
                            // 'greenlight',
                            // 'sunrise',
+                           // 'vlight',
 
 
-                           // 'honeydew',
+                          //  'honeydew',
                           // 'yell',
                           // 'purple',
                           // 'vlight',
                           // 'notsure',
                           // 'delicate',
-
+                          //
                           // 'margo4',
-
+                          //
                           // 'gblue',
                           // 'teal',
                           // 'blue',
