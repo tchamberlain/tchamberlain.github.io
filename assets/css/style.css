@@ -24,7 +24,9 @@
     font-family: knuckle;
     src: url("./Stoicheion-2Od3X.ttf")
 }
-
+.brain {
+  margin-left: 4px;
+}
 .purple {
   background-color: #f8ceec;
   background-image: linear-gradient(90deg, #f8ceec 0%, #a88beb 50%);
@@ -558,10 +560,14 @@ video {
   }
 }
 
+.container .navbar-brand {
+  margin-bottom:0;
+  padding-bottom: 0;
+}
 
 .custom-navbar .navbar-brand {
   font-size: 1.5rem;
   line-height: .1rem;
-  margin-left: 170px;
-
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
 }
